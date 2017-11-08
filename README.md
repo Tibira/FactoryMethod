@@ -1,6 +1,11 @@
 # Padrão de Desenvolvimento Factory
 
   O padrão de desenvolvimento Factory encapsula a criação de objetos, isso faz com  que as subclasses decidam que objeto criar.
+### Diagrama de clase
+
+![Diagrama de classe do Factory](http://videos.web-03.net/artigos/Higor_Medeiros/PadraoFactoryMethod/PadraoFactoryMethod1.jpg)
+
+No diagrama de classe acima temos a classe de criador abstrata que é a Creator que define um método fábrica abstrata que as subclasses implementam para criar um produto (factoryMethod) e pode possuir um ou mais métodos com seus devidos comportamentos que chamarão o factoryMethod. Normalmente o método factoryMethod do Creator também possui um Product abstrato que é produzido por uma subclasse (ConcreteCreator).
 
 ### Exemplo de implementação
 ```
@@ -69,4 +74,6 @@ public static void main(String args[]) {
 
 O Factory nos oferece um meio de desligar a implementação de um Product. Adicionar ou alterar Products não ira afetar o Creator, pois eles não estão fortemente ligados.
 
-[Site](https://www.devmedia.com.br/padrao-de-projeto-factory-method-em-java/26348)
+### Bibliografia
+
+[Site explicando mais detalhadamente sobre o Factory](https://www.devmedia.com.br/padrao-de-projeto-factory-method-em-java/26348)
