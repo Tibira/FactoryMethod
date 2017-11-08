@@ -1,3 +1,10 @@
+## Grupo
+Tibiriçá dos Santos
+
+Láudrin Rei Garralaga
+
+Caiã Ceron
+
 # Padrão de Desenvolvimento Factory
 
 O padrão Factory Method encapsula a criação de objetos, no entanto, a diferença é que neste padrão encapsula-se a criação de objetos deixando as subclasses decidirem quais objetos criar.
