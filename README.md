@@ -1,6 +1,6 @@
 # Padrão de Desenvolvimento Factory
 
-  O padrão de desenvolvimento Factory encapsula a criação de objetos, isso faz com  que as subclasses decidam que objeto criar.
+O padrão Factory Method encapsula a criação de objetos, no entanto, a diferença é que neste padrão encapsula-se a criação de objetos deixando as subclasses decidirem quais objetos criar.
 ### Diagrama de clase
 
 ![Diagrama de classe do Factory](http://videos.web-03.net/artigos/Higor_Medeiros/PadraoFactoryMethod/PadraoFactoryMethod1.jpg)
@@ -73,6 +73,14 @@ public static void main(String args[]) {
 ### Vantagens
 
 O Factory nos oferece um meio de desligar a implementação de um Product. Adicionar ou alterar Products não ira afetar o Creator, pois eles não estão fortemente ligados.
+
+Usando o Factory Method temos o nosso código de criação em um objeto ou método, evitando assim a duplicação e além disso temos um local único para fazer manutenção.
+
+O padrão também nos dá um código flexível e extensível para o futuro.
+
+### Desvantagens
+
+Alto número de classes, podendo sobrecarregar o sistema.
 
 ### Bibliografia
 
